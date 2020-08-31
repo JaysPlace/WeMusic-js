@@ -1,1 +1,1 @@
-# WeMusicJS
+# WeMusic-js
