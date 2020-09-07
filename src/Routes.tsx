@@ -5,6 +5,7 @@ import { LandingPage } from "views/LandingPage";
 import { ExploreApp } from "views/ExploreApp";
 import { SignInPage } from "views/SignInPage";
 import { SignUpPage } from "views/SignUpPage";
+import { Dashboard} from "views/Dashboard";
 
 export const Routes = () => {
   return (
@@ -13,6 +14,7 @@ export const Routes = () => {
       <Route path="/explore" component={ExploreApp} />
       <Route path="/signin" component={SignInPage} />
       <Route path="/signup" component={SignUpPage} />
+      <Route path="/dashboard" component={Dashboard}/>
     </Router>
   );
 };
